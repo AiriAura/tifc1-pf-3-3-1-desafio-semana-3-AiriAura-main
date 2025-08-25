@@ -1,23 +1,23 @@
 def main():
     print("Desafio semana 3")
 
-def countvowels(palabra):
+def countvowels():
     vocales = "aeiou"
     cant_vocales = 0
 
-    for letra in palabra.lower():
+    for letra in .lower():
         if letra in vocales:
             cant_vocales += 1
     return cant_vocales
 
-def is_palindrome(palabra):
-    palabra = palabra.lower()
-    lista_palabra = list(palabra)
-    lista_inversa = lista_palabra[::-1]
+def is_palindrome():
+     = .lower()
+    lista_ = list()
+    lista_inversa = lista_[::-1]
     aux = 0
 
-    for i in range(len(lista_palabra)):
-        if lista_palabra[i] != lista_inversa[i]:
+    for i in range(len(lista_)):
+        if lista_[i] != lista_inversa[i]:
             aux += 1
     if aux == 0:
         return True
